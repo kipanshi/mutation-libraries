@@ -1,5 +1,7 @@
 # mutation-libraries
 
+If you are not familiar with mutation testing, check [MUTATION_TESTING_WIKI.md](https://github.com/kipanshi/mutation-libraries/blob/main/MUTATION_TESTING_WIKI.md).
+
 Monorepo for three mutation-testing ports inspired by `unclebob/mutate4java`.
 
 Current docs and commands are written for Linux, tested on this local environment.
