@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "module_hash": "1c0a589d3ecf6b66",
+  "scopes": [
+    {
+      "id": "function:parse_args:5",
+      "kind": "function",
+      "start_line": 5,
+      "end_line": 117,
+      "semantic_hash": "5dda8a297b07f525"
+    },
+    {
+      "id": "function:parse_lines:136",
+      "kind": "function",
+      "start_line": 136,
+      "end_line": 159,
+      "semantic_hash": "0deb548b5f431420"
+    },
+    {
+      "id": "function:parse_positive_int:119",
+      "kind": "function",
+      "start_line": 119,
+      "end_line": 134,
+      "semantic_hash": "5db62dab330bbada"
+    }
+  ]
+}

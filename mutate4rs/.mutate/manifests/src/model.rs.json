@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "module_hash": "51c6a66c1b4b7a58",
+  "scopes": [
+    {
+      "id": "file:model.rs",
+      "kind": "file",
+      "start_line": 1,
+      "end_line": 95,
+      "semantic_hash": "3b73f9d41ce49a0e"
+    }
+  ]
+}

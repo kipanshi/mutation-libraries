@@ -1,0 +1,62 @@
+# Monorepo build and release outputs
+dist/
+tmpcov/
+session-log.md
+artifacts.jsonl
+
+# Python
+**/__pycache__/
+**/*.py[cod]
+**/*.egg-info/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.hypothesis/
+**/.trace/
+**/.coverage
+**/.coverage.*
+**/coverage.xml
+**/htmlcov/
+**/build/
+**/.venv/
+**/venv/
+
+# Go
+**/cover.out
+**/coverpkg.out
+**/*.test
+
+# Rust
+**/target/
+**/*.profraw
+**/*.profdata
+**/coverage.profdata
+
+# Native coverage leftovers
+**/*.gcda
+**/*.gcno
+**/*.gcov
+**/*.lcov
+**/*.info
+
+# Local mutation outputs
+# Keep committed manifests, ignore transient execution artifacts.
+**/.mutate/coverage/
+**/.mutate/workers/
+
+# Editor and OS noise
+**/.DS_Store
+**/.idea/
+**/.vscode/
+
+### Docs
+PUBLISH.md
+cross-language-design.md
+go-mvp-milestones.md
+golang-implementation-plan.md
+mutate4java-deep-dive.md
+mutate4java-findings.md
+mvp-roadmap.md
+python-implementation-plan.md
+python-mvp-milestones.md
+rust-mvp-milestones.md

@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "module_hash": "fc82fbbb1d39afba6dcdad393bcea29cfed8831655ab6d097bdf9d9a6dfe2291",
+  "scopes": [
+    {
+      "id": "function:ParseArgs:10",
+      "kind": "function",
+      "start_line": 10,
+      "end_line": 137,
+      "semantic_hash": "6e949bb86721e2e4e840e484cb592ccbe7989d4037a1355af70a8edea970ff09"
+    },
+    {
+      "id": "function:maxInt:198",
+      "kind": "function",
+      "start_line": 198,
+      "end_line": 203,
+      "semantic_hash": "a2bd12d14e405add4fd2e07802aa683ec9acbdda06fa9a2b330710df0a3b3a22"
+    },
+    {
+      "id": "function:parseLines:150",
+      "kind": "function",
+      "start_line": 150,
+      "end_line": 171,
+      "semantic_hash": "e7a02951d74c8f88717bd62a1a9309f268dca9a70065dd8347c68818e5bf17cf"
+    },
+    {
+      "id": "function:parsePositiveInt:139",
+      "kind": "function",
+      "start_line": 139,
+      "end_line": 148,
+      "semantic_hash": "a67995a91d55c9708381ffa694658c3ebccc3084b0287b00fec5ed85b4a7fb43"
+    },
+    {
+      "id": "function:usageText:173",
+      "kind": "function",
+      "start_line": 173,
+      "end_line": 196,
+      "semantic_hash": "0b03911ba78f1585bb83faa970829859e64d1c9582478b00acbd7bf05908ccfd"
+    }
+  ]
+}

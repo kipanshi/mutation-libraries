@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mutate4py"
+version = "0.1.0"
+description = "Python mutation testing prototype inspired by mutate4java"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/example/mutation-libraries"
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+  "libcst>=1.4.0",
+  "coverage>=7.0",
+]
+
+[project.scripts]
+mutate4py = "mutate4py.__main__:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
